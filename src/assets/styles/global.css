@@ -1,0 +1,48 @@
+:root {
+  font-size: 50%;
+
+  --color-border: ;
+  --color-background: #121212;
+  --color-primary: #282828;
+  --color-primary-dark: #040404;
+  --colot-primary-darker: #000000;
+  --color-secundary: #1DB954;
+  --color-title-in-primary: #FFFFFF;
+  --color-text-in-primary: #B3B3B3;
+  --color-box-search: #FFFFFF;
+  --color-gradient: linear-gradient(135deg, rgb(96, 61, 253) 34%, rgba(255,255,255,1) 90%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--color-background);
+
+}
+
+#root {
+  display: flex;
+  
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem 'Archivo', sans-serif;
+  color: var(--color-text-base)
+}
+
+@media (min-width: 1000px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
