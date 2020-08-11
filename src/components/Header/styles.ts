@@ -8,6 +8,7 @@ const HeaderContainer = styled.header`
   height: 100vh;
   background: var(--color-primary-dark);
   position: fixed;
+  z-index: 20;
 `
 
 export default HeaderContainer

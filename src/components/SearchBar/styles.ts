@@ -1,11 +1,8 @@
 import styled from 'styled-components'
 
 export const UtilityBar = styled.div`
-  position: sticky;
-  width: 100%;
-  height: 100vh;
+  height: 8rem;
   background: none;
-  
 `
 
 export const Bar = styled.div`
