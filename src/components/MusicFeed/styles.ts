@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 
 export const FeedContainer = styled.div`
-  
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 1.8rem;
+  padding-bottom: 15rem;
   margin-left: 1.5rem;
-  width: fit-content;
-  height: 30rem;
+  width: 100%;
+  
   
 `
 export const Title = styled.h2`
@@ -16,5 +19,11 @@ export const Title = styled.h2`
 
 export const RowElements = styled.div`
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+`
+
+export const CategoryContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
 `

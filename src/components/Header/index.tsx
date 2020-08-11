@@ -4,7 +4,7 @@ import SpotifyLogo from '../../assets/img/logo-white.png'
 import HeaderContainer from './styles'
 import SelectPages from './SelectPages'
 import Playlist from './Playlists'
-import Footer from '../Footer'
+
 
 
 
